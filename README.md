@@ -1,4 +1,4 @@
-# official_sem
+# Official SEM®
 
 A new Flutter project.
 
