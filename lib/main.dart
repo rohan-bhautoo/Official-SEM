@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:official_sem/screens/splash/splash_screen.dart';
 import 'routes.dart';
 import 'size_config.dart';
 import 'theme.dart';
@@ -10,7 +11,6 @@ void main() {
 class OfficialSEM extends StatelessWidget {
   const OfficialSEM({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -38,6 +38,6 @@ class _LandingPageState extends State<LandingPage> {
   @override
   Widget build(BuildContext context) {
     SizeConfig().init(context);
-    return Container();
+    return const SplashScreen();
   }
 }
