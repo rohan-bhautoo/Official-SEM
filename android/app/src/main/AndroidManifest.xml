@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.official_sem">
    <application
-        android:label="official_sem"
+        android:label="Official SEM™"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
